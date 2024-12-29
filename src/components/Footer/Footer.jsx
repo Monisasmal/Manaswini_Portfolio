@@ -105,7 +105,7 @@ const Footer = () => {
                 <SocialMediaIcon href= {Bio.Indeed} traget = "display"><SiIndeed /></SocialMediaIcon>
                 <SocialMediaIcon href= {Bio.HackerRank} traget = "display"><FaHackerrank /></SocialMediaIcon>
                 <SocialMediaIcon href= {Bio.LeetCode} traget = "display"><SiLeetcode /></SocialMediaIcon>
-                <SocialMediaIcon href= {Bio.LeetCode} traget = "display"><FaFreeCodeCamp />
+                <SocialMediaIcon href= {Bio.FreeCodeCamp} traget = "display"><FaFreeCodeCamp />
                 </SocialMediaIcon>
                 {/* <SocialMediaIcon href= {Bio.Naukari} traget = "display"><NaukariIcon /></SocialMediaIcon> */}
                 {/* <SocialMediaIcon href= {Bio.Apna} traget = "display"><ApnaIcon /></SocialMediaIcon> */}
