@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
+
 const Card = styled.div`
 width:330px;
 height:500px;
@@ -126,6 +127,7 @@ background: hsla(271, 100%, 50%, 1);
 
 const ProjectCard = ({project}) => {
   return (
+    <>
       <Card>
           <Image src={project.image}/>
           <Tags>
@@ -140,6 +142,8 @@ const ProjectCard = ({project}) => {
           </Details>
           <ProjectButton href = {project.github} target = "display">View Project</ProjectButton>
                 </Card>
+            
+                </>
   )
 }
 

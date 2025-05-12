@@ -12,6 +12,7 @@ import Education from './components/Education';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Contact from './components/Contact/Contact';
+// import LoadMoreProjects from './components/LoadMoreButton/LoadMore';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 
@@ -40,6 +41,7 @@ function App() {
         <Education />
         </Wrapper>
         <Projects />
+        {/* <LoadMoreProjects/> */}
         <Experience />
          <Wrapper> 
           <Contact/>

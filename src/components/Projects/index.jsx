@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { projects } from "../../Data/constants";
 import ProjectCard from "./ProjectCard";
+import LoadMoreProjects from "../LoadMoreButton/LoadMore"
 import styled from "styled-components";
 // import _default from "../../Themes/default";
 
@@ -97,11 +98,11 @@ const CardContainer = styled.div`
 
 const Projects = ({openModal,setOpenModal}) => {
   const [toggle, setToggle] = useState('all');
-  // const[limit, setLimit] = useState(3);
+  const[limit, setLimit] = useState(6);
 
-  // const loadMore = () => {
-  //   setLimit(limit+3)
-  // }
+  const loadMore = () => {
+    setLimit(limit+3)
+  }
   return (
 
     <Container id="projects">
@@ -144,9 +145,8 @@ const Projects = ({openModal,setOpenModal}) => {
         </ToggleButtonGroup>
         
         <CardContainer>
-        {/* <button className='load-btn' onClick={ () => loadMore}>Load More</button> */}
         
-          {toggle === 'all' && projects
+          {/* {toggle === 'all' && projects
             .map((project) => (
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
               
@@ -155,8 +155,40 @@ const Projects = ({openModal,setOpenModal}) => {
             .filter((item) => item.category === toggle)
             .map((project) => (
               <ProjectCard project={project}  openModal={openModal} setOpenModal={setOpenModal}/>
-            ))}
+            ))} */}
+
+            {toggle === 'all' &&
+  projects
+    .slice(0, limit) // <-- Apply limit here
+    .map((project) => (
+      <ProjectCard
+        key={project.id} // It's best to use a unique key
+        project={project}
+        openModal={openModal}
+        setOpenModal={setOpenModal}
+      />
+    ))}
+{toggle !== 'all' &&
+  projects
+    .filter((item) => item.category === toggle)
+    .slice(0, limit) //  Apply limit here too
+    .map((project) => (
+      <ProjectCard
+        key={project.id}
+        project={project}
+        openModal={openModal}
+        setOpenModal={setOpenModal}
+      />
+    ))}
+
+
         </CardContainer>
+
+        {/* Display Load More button */}
+        {limit < projects.length && (
+          <LoadMoreProjects onClick={loadMore} />
+        )}
+
       </Wrapper>
     </Container>
   )
