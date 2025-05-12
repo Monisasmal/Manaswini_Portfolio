@@ -133,11 +133,20 @@ export const Bio = {
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
         },
-        // {
-        //   name: "Postman",
-        //   image:
-        //     "",
-        // },
+        {
+          name: "Render",
+          image:
+            "https://pbs.twimg.com/profile_images/1735429515541938176/zOO1N7Su_400x400.jpg",
+        },
+        {
+          name: "Canva",
+          image:
+            "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxo4K81Ei7WzcnqEk8W.MgwadpHjl76SlQnWKc4OkaILTy7aDmpraBC2vB.Q_eb6EavJPyLEBEEqc.BSkZzu5Vng-&format=source",
+        },
+        {
+          name: "PhotoPea",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8epqzDCnFoB5RSkc84p578SA1wnlKQSH64w&s"
+        }
         
       ],
     },
@@ -154,6 +163,7 @@ export const Bio = {
       company: "Swash Consulting & Pvt. Ltd.",
       date: "May 2022",
       desc: "Versatile WordPress Developer with 2 years experience. Expert in theme customization, plugin integration, and performance optimization for visually stunning, functional sites.",
+      doc: "https://rcm.ac.in/"
     },
     {
       id: 1,
@@ -372,13 +382,13 @@ export const Bio = {
       },
       {
           id:12,
-          title:"Basic Library App",
-          date:"Aug 2022",
-          desc:"Step into the digital realm of knowledge and literary exploration with my innovative Library Project – a sophisticated platform designed to redefine the way users discover, access, and engage with a vast array of literary resources.",
-          image:"https://www.gvmgc.in/wp-content/uploads/2017/06/online-libr.jpg",
+          title:"Change shape Change Color",
+          date:"Oct 2024",
+          desc:"Project about change the shape and color",
+          image:"https://www.freeiconspng.com/uploads/red-triangle-png-20.png",
           tags:["HTML", "CSS", "JavaScript", "Github", "VS Code"],
           category:"VanillaJS",
-          github:"https://monisasmal.github.io/JavaScript-Library-Project/",
+          github:"https://monisasmal.github.io/Change-Color-and-Shape-/",
       },
       {
           id:13,
@@ -388,7 +398,7 @@ export const Bio = {
           image:"https://images.unsplash.com/photo-1588681664899-f142ff2dc9b1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TkVXUyUyMEFwcHxlbnwwfHwwfHx8MA%3D%3D",
           tags:["HTML", "CSS", "JavaScript", "Github", "VS Code"],
           category:"VanillaJS",
-          github:"https://monisasmal.github.io/JavaScript-NEWS-Project/",
+          github:"https://monisasmal.github.io/Basic-NEWS-App-JS/",
       },
       {
           id:14,
@@ -400,16 +410,16 @@ export const Bio = {
           category:"VanillaJS",
           github:"https://monisasmal.github.io/JS-FormValidation-Project/",
       },
-    //   {
-    //     id:15,
-    //     title:"React Quiz App",
-    //     date:"JAN 2024",
-    //     desc:"Engage your curiosity with my interactive Quiz App! Explore a world of knowledge and test your skills on Tech topics. Challenge yourself with a diverse range of questions, from general trivia to specialized subjects.",
-    //     image:"https://cdn.vectorstock.com/i/preview-1x/68/24/man-playing-quiz-with-smartphone-mobile-app-vector-35896824.jpg",
-    //     tags:["React","nodeJs", "Github", "VS Code"],
-    //     category:"React",
-    //     github:"https://monisasmal.github.io/ReactQuizApp/",
-    // },
+      {
+        id:15,
+        title:"React Quiz App",
+        date:"JAN 2024",
+        desc:"Engage your curiosity with my interactive Quiz App! Explore a world of knowledge and test your skills on Tech topics. Challenge yourself with a diverse range of questions, from general trivia to specialized subjects.",
+        image:"https://cdn.vectorstock.com/i/preview-1x/68/24/man-playing-quiz-with-smartphone-mobile-app-vector-35896824.jpg",
+        tags:["React","nodeJs", "Github", "VS Code"],
+        category:"React",
+        github:"https://monisasmal.github.io/ReactQuizApp/",
+    },
     {
       id:16,
       title:"Calculator",
@@ -540,7 +550,118 @@ export const Bio = {
     category:"WebApp",
     github:"https://monisasmal.github.io/YouTube-Clone-CSS/",
   },
+  {
+    id:29,
+    title:"Age Calculator",
+    date:"Oct 2024",
+    desc:"The Age Calculator App is a simple and useful tool designed to calculate a person’s age based on their date of birth. By entering the birth date, users can instantly find out their exact age in years, months, and days.",
+    image:"https://www.designnominees.com/application/upload/Apps/2019/06/age-calculator-76.png",
+    tags:["HTML","CSS", "javascript", "Github", "VS Code"],
+    category:"VanillaJS",
+    github:"https://monisasmal.github.io/New-Age-Calculator-JS/",
+  },
+  {
+    id:30,
+    title:"Joke Generator",
+    date:"Oct 2024",
+    desc:"The Joke Generator App is a fun and lighthearted tool designed to lift your mood anytime you need a good laugh. With just one click, it fetches a random joke and displays it instantly",
+    image:"https://www.codewithrandom.com/wp-content/uploads/2022/11/codewithrandom11.png",
+    tags:["HTML","CSS", "javascript", "Github", "VS Code"],
+    category:"VanillaJS",
+    github:"https://monisasmal.github.io/Dad-Joke-Generator-JS/",
+  },
+  {
+    id:31,
+    title:"Digital Clock",
+    date:"Nov 2024",
+    desc:"The Digital Clock App is a simple, stylish, and highly accurate tool that displays the current time in a beautiful digital format.",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6R3SuVm9FyQJfkd1k0NNnk3o9NiqgD0O62w&s",
+    tags:["HTML","CSS", "javascript", "Github", "VS Code"],
+    category:"VanillaJS",
+    github:"https://monisasmal.github.io/Digital-Clock-JS/",
+  },
+  {
+    id:32,
+    title:"FeedBack App",
+    date:"Oct 2024",
+    desc:"The Feedback App is a simple and effective tool that allows users to share their opinions, suggestions, and experiences easily.",
+    image:"https://a.storyblok.com/f/47007/1200x628/72065e2c21/inappfeedback_blog_meta_v02.png",
+    tags:["HTML","CSS", "javascript", "Github", "VS Code"],
+    category:"VanillaJS",
+    github:"https://monisasmal.github.io/Feedback-UI-JS/",
+  },
+  {
+    id:33,
+    title:"Image Search App",
+    date:"Dec 2024",
+    desc:"An Image Search App is a web or mobile application that allows users to find images based on text queries or visual input.",
+    image:"https://img.fixthephoto.com/blog/images/gallery/news_preview_mob_image__preview_3547.png",
+    tags:["HTML","CSS", "javascript", "Github", "VS Code"],
+    category:"VanillaJS",
+    github:"https://monisasmal.github.io/ImageSearchJS/",
+  },
+  {
+    id:34,
+    title:"Movie Search App",
+    date:"Dec 2024",
+    desc:"A Movie Search App is a web or mobile application that allows users to find movies by title, genre, actor, release year, or other criteria. ",
+    image:"https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY-1200-80.jpg",
+    tags:["HTML","CSS", "javascript", "Github", "VS Code"],
+    category:"VanillaJS",
+    github:"https://monisasmal.github.io/MovieSearchAppJS/",
+  },
   
+  {
+    id:35,
+    title:"Switch List",
+    date:"Apr 2025",
+    desc:"A List Switching App is a type of user interface that allows users to move list items between two containers—typically a left container and a right container—by selecting items and clicking a button",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVaaZUPz4KGkH7mEy_kaZSmPCpKo8whrjbpw&s",
+    tags:["HTML","CSS", "javascript", "Github", "VS Code"],
+    category:"VanillaJS",
+    github:"https://monisasmal.github.io/Switching-List-JS/",
+  },
+  
+    {
+    id:36,
+    title:"Sticy Note",
+    date:"Oct 2024",
+    desc:"A Sticky Note App is a simple yet powerful productivity tool that lets users create and manage digital sticky notes on their screen",
+    image:"https://beebom.com/wp-content/uploads/2020/10/1-best-sticky-notes-alternatives-for-windows-10.jpg",
+    tags:["HTML","CSS", "javascript", "Github", "VS Code"],
+    category:"VanillaJS",
+    github:"https://monisasmal.github.io/Sticky-Note-/",
+  },
+  {
+    id:37,
+    title:"Stock Tracker",
+    date:"Dec 2024",
+    desc:"A Stock Tracker Dashboard App is a dynamic and interactive application that allows users to monitor real-time stock market data, track selected stocks, and analyze financial trends",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_3jOFmDcG62-THQNELMvGW7jqC-MJcrG7Ug&s",
+    tags:["HTML","CSS", "javascript", "Github", "VS Code"],
+    category:"VanillaJS",
+    github:"https://monisasmal.github.io/Stock-Tracker-JS/",
+  },
+  {
+    id:38,
+    title:"Stop Watch",
+    date:"Nov 2024",
+    desc:"A Stopwatch App is a digital tool that allows users to measure elapsed time accurately. It's commonly used for tracking time during workouts, sports events,",
+    image:"https://static.vecteezy.com/system/resources/thumbnails/014/491/559/small/digital-stopwatch-icon-simple-style-vector.jpg",
+    tags:["HTML","CSS", "javascript", "Github", "VS Code"],
+    category:"VanillaJS",
+    github:"https://monisasmal.github.io/Stop-Watch-JS/",
+  },
+  {
+    id:39,
+    title:"Tip Calculator",
+    date:"Mar 2025",
+    desc:"A Tip Calculator App is a handy tool designed to help users quickly calculate how much tip to leave on a bill and how to split the total among multiple people.",
+    image:"https://user-images.githubusercontent.com/46662771/211972696-229ed1ca-92d3-414c-afb3-7814fc158c83.png",
+    tags:["HTML","CSS", "javascript", "Github", "VS Code"],
+    category:"VanillaJS",
+    github:"https://monisasmal.github.io/Tip-Calculator-JS/",
+  },
   ];
   
   
