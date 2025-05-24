@@ -111,7 +111,7 @@ const Footer = () => {
                 {/* <SocialMediaIcon href= {Bio.Apna} traget = "display"><ApnaIcon /></SocialMediaIcon> */}
                 </SocialMediaIcons>
                 <Copyright>
-                    &copy; 2024 Manaswini Sasmal. All rights reserved.
+                    &copy; 2025 Manaswini Sasmal. All rights reserved.
                 </Copyright>
            
         </FooterWrapper>
