@@ -982,6 +982,59 @@ export const Bio = {
     category:"React",
     github:"https://real-e-state-react-manaswini-sasmals-projects.vercel.app/",
   },
+  {
+    id:72,
+    title:"Net Inspector",
+    date:"May 2025",
+    desc:"Track user location, IP details, and find domain names using simple HTML, CSS, and JavaScript-powered interface.",
+    image:"https://tracker.iplocation.net/assets/images/tracker-hero.jpg",
+    tags:["HTML", "CSS", "JS","Github", "VS Code"],
+    category:"VanillaJS",
+    github:"https://monisasmal.github.io/NetInspector-JS/",
+  },
+
+  {
+    id:73,
+    title:"Expense Tracker",
+    date:"July 2025",
+    desc:"Track income and expenses effortlessly using HTML, CSS, and JavaScript with dynamic updates, local storage, and clean UI.",
+    image:"https://youarelovedtemplates.com/cdn/shop/files/1_4e77156c-d26e-4cf1-aa31-946d972b3209.jpg?v=1683930594&width=1445",
+    tags:["HTML", "CSS", "JS","Github", "VS Code"],
+    category:"VanillaJS",
+    github:"https://monisasmal.github.io/Expense-Tracker-JS/",
+  },
+
+  {
+    id:74,
+    title:"Whack a Mole",
+    date:"July 2025",
+    desc:"Fun Whack-a-Mole game using HTML, CSS, and JavaScript with random mole pop-ups, scoring, and fast-paced interaction.",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3VVINSJLUrfJ_8V4sNFpcf7-ZewhFYJN9_Q&s",
+    tags:["HTML", "CSS", "JS","Github", "VS Code"],
+    category:"VanillaJS",
+    github:"https://monisasmal.github.io/Whack-a-Mole-JS/",
+  },
+  {
+    id:75,
+    title:"Shopzy Zone(Ecomm APP)",
+    date:"jan 2025",
+    desc:"Responsive E-commerce app using HTML, CSS, and JavaScript with product listings, cart functionality, and smooth user interactions.",
+    image:"https://s3.us-east-2.amazonaws.com/assets.yourgpt.ai/content/uploads/2024/10/01144344/Ecom-AI.jpg",
+    tags:["HTML", "CSS", "JS","Github", "VS Code"],
+    category:"VanillaJS",
+    github:"https://monisasmal.github.io/shopzyJS/",
+  },
+  {
+    id:76,
+    title:"Generate Keyboard",
+    date:"Aug 2024",
+    desc:"Interactive virtual keyboard built with HTML, CSS, and JavaScript, supporting keypress detection, styling, and real-time input display.",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP24V9vDPqqMcFMKpwF8CbtUeM_ti0aOsH9FR3Cq7Q89lu5mWO58_8u5TocmUmRPjjr8Y&usqp=CAU",
+    tags:["HTML", "CSS", "JS","Github", "VS Code"],
+    category:"VanillaJS",
+    github:"https://monisasmal.github.io/keyBoard-Generating-JS/",
+  },
+
   ];
   
   
