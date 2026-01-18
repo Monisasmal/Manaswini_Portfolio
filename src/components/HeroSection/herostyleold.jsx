@@ -1,58 +1,5 @@
 
-import styled, { keyframes } from 'styled-components';
-
-
-// 1. Define the floating animation
-const float = keyframes`
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-20px); }
-  100% { transform: translateY(0px); }
-`;
-
-// 2. Define the rotating glow for the background
-const pulse = keyframes`
-  0% { opacity: 0.4; transform: scale(1); }
-  50% { opacity: 0.7; transform: scale(1.1); }
-  100% { opacity: 0.4; transform: scale(1); }
-`;
-
-export const FloatingIcon = styled.div`
-  position: absolute;
-  font-size: 2.5rem;
-  color: ${({ theme }) => theme.primary};
-  opacity: 0.6;
-  filter: drop-shadow(0 0 10px ${({ theme }) => theme.primary});
-  animation: ${float} 4s ease-in-out infinite;
-  animation-delay: ${props => props.delay || '0s'};
-  z-index: -1;
-
-  @media (max-width: 960px) {
-    display: none; // Hide icons on small screens to avoid clutter
-  }
-
-  &.icon-1 { top: 10%; left: 50%; }
-  &.icon-2 { top: 50%; right: 40%; animation-duration: 5s; }
-  &.icon-3 { bottom: 20%; left: 20%; animation-duration: 6s; }
-  &.icon-4 { bottom: 10%; right: 10%; animation-duration: 3s; }
-`;
-
-export const HeroBg = styled.div`
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 500px;
-  height: 500px;
-  background: radial-gradient(circle, ${({ theme }) => theme.primary + '33'} 0%, transparent 70%);
-  transform: translate(-50%, -50%);
-  animation: ${pulse} 8s infinite ease-in-out;
-  z-index: -1;
-
-  @media (max-width: 640px) {
-    width: 280px;
-    height: 280px;
-  }
-`;
-
+import styled from 'styled-components'
 
 
 export const HeroContainer = styled.div`
@@ -61,19 +8,13 @@ display: flex;
 justify-content: center;
 position: relative;
 padding: 80px, 30px;
-min-height: 90vh;
-width:100%;
-z-index: 1;
-  overflow: hidden; 
-
 @media (max-width : 960px){
     padding: 66px 16px
-    min-height: 80vh;
 }
 @media(max-width: 640px){
     padding: 32px 6px;
 }
-
+z-index: 1;
 `;
 export const HeroInnerContainer = styled.div`
 position: relative;
@@ -111,7 +52,6 @@ display:flex;
 order:2;
 justify-content: end;
 gap:12px;
-
 @media(max-width: 960px){
     order: 1;
     justify-content: center;
@@ -223,11 +163,3 @@ background: hsla(271, 100%, 50%, 1);
     }
 
 `;
-
-
-
-
-
-
-
-

@@ -7,6 +7,7 @@ import { useState } from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import Skills from './components/Skills';
+// import  FloatingIcons  from "./components/HeroSection";
 
 import Education from './components/Education';
 import Projects from './components/Projects';
