@@ -2,7 +2,7 @@
 
 export const Bio = {
     name: "Manaswini Sasmal",
-    roles: ["FullStack Developer",  "Wordpress Developer"],
+    roles: ["FullStack Developer",  "Wordpress Developer", "ReactJS Developer"],
     description:
       "Skilled Full Stack Developer who can work with HTML, CSS, JavaScript, ReactJS, and Node.js. Passionate about building responsive web applications, solving problems, and learning new technologies to create impactful and user-friendly digital experiences.",
     github: "https://github.com/Monisasmal",

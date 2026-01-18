@@ -1,7 +1,7 @@
 
 import { Bio } from '../../Data/constants';
 import TypeWriter from 'typewriter-effect';
-import HeroImg from "../Images/ManaswiniPortfolioImg.jpeg";
+import HeroImg from "../Images/Manaswini Profile.jpeg";
 import {HeroContainer, HeroInnerContainer, HeroLeftContainer,Title, HeroRightContainer, Img, TextLoop, SubTitle,ResumeButton,Span} from './heroStyle';
 const HeroSection = () => {
   return (
