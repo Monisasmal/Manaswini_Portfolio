@@ -6,7 +6,7 @@ export const Bio = {
     description:
       "Skilled Full Stack Developer who can work with HTML, CSS, JavaScript, ReactJS, and Node.js. Passionate about building responsive web applications, solving problems, and learning new technologies to create impactful and user-friendly digital experiences.",
     github: "https://github.com/Monisasmal",
-    resume: "https://drive.google.com/file/d/14GOgdsp8sdlQ8pSJUjx8JLt1zHvA42fa/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1Xgv_dL34y5majrP5dR8IKVZ0x4ZIpuSK/view?usp=drive_link",
     linkedIn:"https://www.linkedin.com/in/manaswini-sasmal-b77a21162/",
     LeetCode:"https://leetcode.com/u/Manaswini_Sasmal/",
     HackerRank: "https://www.hackerrank.com/contests/fs-22-java-dsa-class-challenges/challenges",
@@ -227,7 +227,7 @@ export const Bio = {
   export const education = [
     {
       id: 0,
-      image: "https://roland.ac.in/site/wp-content/uploads/2019/03/cropped-rolandsmlsml.png",
+      image: "https://media.getmyuni.com/azure/college-images-test/roland-institute-of-technology-berhampur/c326509f0f2b460ab10c144a5b5056de.jpeg",
       school: "Roland Institute of Technology, Berhampur",
       date: "Nov 2020",
       grade: "7.48 CGPA",
