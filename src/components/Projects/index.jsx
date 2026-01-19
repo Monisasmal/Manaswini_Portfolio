@@ -1,5 +1,5 @@
-/* eslint-disable react/prop-types */
-// import React, { useState } from "react";
+
+import  { useState } from "react";
 import { projects } from "../../Data/constants";
 import ProjectCard from "./ProjectCard";
 import LoadMoreProjects from "../LoadMoreButton/LoadMore"
@@ -97,10 +97,12 @@ const CardContainer = styled.div`
   flex-wrap: wrap;
 `;
 
+
+// eslint-disable-next-line react/prop-types
 const Projects = ({openModal,setOpenModal}) => {
-  // eslint-disable-next-line no-undef
+  
   const [toggle, setToggle] = useState('all');
-  // eslint-disable-next-line no-undef
+ 
   const[limit, setLimit] = useState(6);
 
   const loadMore = () => {

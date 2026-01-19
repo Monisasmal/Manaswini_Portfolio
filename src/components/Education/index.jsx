@@ -1,4 +1,4 @@
-/* eslint-disable react/jsx-key */
+
 // import React from 'react';
 import styled from 'styled-components';
 import Timeline from '@mui/lab/Timeline';
@@ -78,6 +78,7 @@ const Education = () => {
         <Desc> My education has been a journey of self-discovery and growth. <br/>My educational details are as follows.</Desc>
         <TimelineSection>
           <Timeline>{education.map((education, index) => (
+            // eslint-disable-next-line react/jsx-key
             <TimelineItem>
               <TimelineContent sx={{py: '12px', px: '2px'}} ><EducationCard education={education}/></TimelineContent>
               <TimelineSeparator>
