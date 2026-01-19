@@ -1,4 +1,5 @@
-import React from 'react'
+/* eslint-disable react/jsx-key */
+// import React from 'react'
 import { experiences } from '../../Data/constants'
 import styled from 'styled-components'
 import TimeLine from '@mui/lab/Timeline'
@@ -9,6 +10,7 @@ import TimelineContent from '@mui/lab/TimelineContent'
 import TimelineDot from '@mui/lab/TimelineDot';
 import ExperienceCard from './ExperienceCard'
 
+// eslint-disable-next-line react-refresh/only-export-components
 const Container = styled.div`
 display: flex;
 flex-direction: column;
@@ -21,6 +23,7 @@ padding: 40px 0px 40px 0px;
     padding: 0px;
 }
 `
+// eslint-disable-next-line react-refresh/only-export-components
 const Wrapper = styled.div`
 position: relative;
 display: flex;
@@ -34,6 +37,7 @@ gap: 12px;
     flex-direction: column;
 }
 `
+// eslint-disable-next-line react-refresh/only-export-components
 const Title = styled.div`
 font-size: 32px;
 text-align: center;
@@ -45,6 +49,7 @@ color: ${({theme})=> theme.text_primary};
     font-size: 32px;
 }
 `
+// eslint-disable-next-line react-refresh/only-export-components
 const Desc = styled.div`
 font-size: 18px;
 text-align: center;
@@ -52,10 +57,11 @@ max-width: 600px;
 color: ${({theme})=> theme.text_secondary};
 @media(max-width : 768px){
     margin-top: 12px;
-    font-size: 16px;
+    font-size: 14px;
 }
 `
 
+// eslint-disable-next-line react-refresh/only-export-components
 const TimelineSection = styled.div`
 width: 100%;
 max-width: 1000px;

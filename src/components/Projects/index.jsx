@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+/* eslint-disable react/prop-types */
+// import React, { useState } from "react";
 import { projects } from "../../Data/constants";
 import ProjectCard from "./ProjectCard";
 import LoadMoreProjects from "../LoadMoreButton/LoadMore"
@@ -50,7 +51,7 @@ const Desc = styled.div`
   color: ${({ theme }) => theme.text_secondary};
   @media (max-width: 768px) {
     margin-top: 12px;
-    font-size: 16px;
+    font-size: 14px;
   }
 `;
 const ToggleButtonGroup = styled.div`
@@ -97,7 +98,9 @@ const CardContainer = styled.div`
 `;
 
 const Projects = ({openModal,setOpenModal}) => {
+  // eslint-disable-next-line no-undef
   const [toggle, setToggle] = useState('all');
+  // eslint-disable-next-line no-undef
   const[limit, setLimit] = useState(6);
 
   const loadMore = () => {

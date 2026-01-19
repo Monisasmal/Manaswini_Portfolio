@@ -1,4 +1,5 @@
-import React from 'react';
+/* eslint-disable react/jsx-key */
+// import React from 'react';
 import styled from 'styled-components';
 import Timeline from '@mui/lab/Timeline';
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
@@ -53,7 +54,7 @@ max-width: 500;
 color: ${({theme})=> theme.text_secondary};
 @media(max-width: 768px){
   margin-top: 12px;
-  font-size: 16px;
+  font-size: 14px;
 }
 `
 const TimelineSection = styled.div`
