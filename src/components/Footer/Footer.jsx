@@ -1,12 +1,12 @@
-import React from 'react'
+// import React from 'react'
 // import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 import { FaLinkedin } from "react-icons/fa";
-import { SiIndeed } from "react-icons/si";
+import { FaMedium } from "react-icons/fa";
 import { FaHackerrank } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import { FaFreeCodeCamp } from "react-icons/fa6";
-// import NaukariIcon from '@mui/icons-material/Naukari';
+// import {NaukariIcon} from '@mui/icons-material/Naukari';
 import {Bio} from '../../Data/constants';
 
 const FooterContainer = styled.div`
@@ -102,7 +102,7 @@ const Footer = () => {
             </Nav>
             <SocialMediaIcons>
                 <SocialMediaIcon href={Bio.linkedIn} traget="display"><FaLinkedin /></SocialMediaIcon>
-                <SocialMediaIcon href= {Bio.Indeed} traget = "display"><SiIndeed /></SocialMediaIcon>
+                <SocialMediaIcon href= {Bio.Medium} traget = "display"><FaMedium /></SocialMediaIcon>
                 <SocialMediaIcon href= {Bio.HackerRank} traget = "display"><FaHackerrank /></SocialMediaIcon>
                 <SocialMediaIcon href= {Bio.LeetCode} traget = "display"><SiLeetcode /></SocialMediaIcon>
                 <SocialMediaIcon href= {Bio.FreeCodeCamp} traget = "display"><FaFreeCodeCamp />

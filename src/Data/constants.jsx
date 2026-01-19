@@ -4,9 +4,10 @@ export const Bio = {
     name: "Manaswini Sasmal",
     roles: ["FullStack Developer",  "Wordpress Developer", "ReactJS Developer"],
     description:
-      "Skilled Full Stack Developer who can work with HTML, CSS, JavaScript, ReactJS, and Node.js. Passionate about building responsive web applications, solving problems, and learning new technologies to create impactful and user-friendly digital experiences.",
+      "With 2.10 years in frontend and WordPress development, I’ve evolved my craft into the MERN stack. I now focus on building high-performance, SEO-friendly apps using React and Next.js. I love bridging the gap between clean design and scalable, modern code.",
     github: "https://github.com/Monisasmal",
     resume: "https://drive.google.com/file/d/1Xgv_dL34y5majrP5dR8IKVZ0x4ZIpuSK/view?usp=drive_link",
+    Medium: "https://medium.com/@manaswinisasmal5597",
     linkedIn:"https://www.linkedin.com/in/manaswini-sasmal-b77a21162/",
     LeetCode:"https://leetcode.com/u/Manaswini_Sasmal/",
     HackerRank: "https://www.hackerrank.com/contests/fs-22-java-dsa-class-challenges/challenges",

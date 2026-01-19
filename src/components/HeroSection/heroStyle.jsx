@@ -30,9 +30,8 @@ export const FloatingIcon = styled.div`
     display: none; // Hide icons on small screens to avoid clutter
   }
 
-  &.icon-1 { top: 10%; left: 50%; }
-  &.icon-2 { top: 50%; right: 40%; animation-duration: 5s; }
-  &.icon-3 { bottom: 20%; left: 20%; animation-duration: 6s; }
+  &.icon-1 { top: 5%; left: 80%; }
+  &.icon-3 { bottom: 20%; left: 58%; animation-duration: 6s; }
   &.icon-4 { bottom: 10%; right: 10%; animation-duration: 3s; }
 `;
 
@@ -141,11 +140,18 @@ border: 2px solid ${({theme})=>theme.primary};
 `;
 
 export const Title =styled.div`
-font-weight: 500;
-font-size: 35px;
+font-weight: 800;
+font-size: 45px;
 margin-top: 20px;
 color: ${({theme})=>theme.text_primary};
-line-height: 40px;
+line-height: 1.2;
+
+span {
+    background: linear-gradient(225deg, #854CE6 0%, #B044FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
 @media(max-width: 960px){
     text-align: center;
 }
@@ -179,47 +185,53 @@ export const Span = styled.span`
 
 export const SubTitle = styled.div`
 font-size: 17px;
-line-height: 32px;
+line-height: 1.6;
 margin-bottom: 42px;
-color: ${({theme})=> theme.text_primary + 95};
+color: ${({theme})=> theme.text_primary + 98};
+max-width:600px;
+border-left: 4px solid ${({ theme }) => theme.primary};
+padding-left: 20px;
+margin-top: 14px;
+
 @media(max-width: 960px){
     text-align:center;
+    border-left: none;
+    padding-left: 0;
 }
 @media(max-width: 640px){
     font-size: 16px;
     line-height: 32px;
+    border-left: none;
+    padding-left: 0;
 }
 `;
 export const ResumeButton = styled.a`
--webkit-appearance: button;
+-webkit-appearance: none;
 -moz-appearance: button;
 appearance: button;
 text-decoration: none;
-width: 95%;
-max-width: 300px;
+display: inline-block;
+width: 100%;
+max-width: 250px;
 text-align: center;
-padding: 16px 0;
+padding: 14px 0;
 color: ${({theme})=> theme.white};
-border-radius: 20px;
+border-radius: 50px;
 cursor: pointer;
 font-size: 20px;
 font-weight: 600;
-transition: all 0.2s ease-in-out !important;
-background: hsla(271, 100%, 50%, 1);
-    background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+transition: all 0.3s ease; !important;
+background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
     box-shadow:  20px 20px 60px #1F2634,
-    -20px -20px 60px #1F2634;
+    
     &:hover{
-        transform: scale(1.05);
-        transition: all 0.4s ease-in-out;
-        box-shadow: 20px 20px 60px #1F2634;
-        filter: brightness(1);
+        transform: translateY(-5px);
+    box-shadow: 0 0 30px rgba(133, 76, 230, 0.6);
+    filter: brightness(1.1);
     }
     @media(max-width: 640px){
         padding: 12px 0;
-        font-size: 18px;
+        font-size: 16px;
     }
 
 `;
