@@ -54,7 +54,7 @@ max-width: 500;
 color: ${({theme})=> theme.text_secondary};
 @media(max-width: 768px){
   margin-top: 12px;
-  font-size: 14px;
+  font-size: 12px;
 }
 `
 const TimelineSection = styled.div`
