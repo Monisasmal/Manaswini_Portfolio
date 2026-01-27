@@ -2,9 +2,13 @@
 
 A clean and modern personal portfolio website built with **React.js** and deployed on **Vercel**. This site highlights my skills, projects, and contact information in an interactive and responsive layout.
 
+----
+
 ## 🚀 Live Demo
 
 👉 [View Live Portfolio](https://manaswini-portfolio.vercel.app/)  
+
+---
 
 
 ## 📸 Screenshots
@@ -16,7 +20,7 @@ A clean and modern personal portfolio website built with **React.js** and deploy
 <img width="1366" height="680" alt="image" src="https://github.com/user-attachments/assets/80c3a121-e38c-411c-aa55-a8cdd4f7362c" />
 <img width="1366" height="687" alt="image" src="https://github.com/user-attachments/assets/be707ed1-0593-464f-8825-523660e9fb4d" />
 
-
+----
 
 
 ## 📄 About The Project
@@ -29,6 +33,8 @@ This project serves as my digital portfolio to showcase:
 
 It's fully responsive and optimized for desktop, tablet, and mobile views.
 
+---
+
 ## ✨ Features
 
 - ⚛️ Built using React (functional components & hooks)
@@ -38,6 +44,8 @@ It's fully responsive and optimized for desktop, tablet, and mobile views.
 - 📧 Contact form integration (Formspree)
 - ⚡ Fast Vercel deployment
 
+---
+
 ## 🛠️ Tech Stack
 
 - React.js
@@ -45,6 +53,8 @@ It's fully responsive and optimized for desktop, tablet, and mobile views.
 - CSS3
 - Vercel 
 - Formspree
+
+----
 
 ## 📦 Installation Instructions
 
@@ -63,6 +73,8 @@ npm install
 **Start development server**
 npm start
 
+----
+
 ## 🔄 Deployment on Vercel
 
 Push your code to GitHub
@@ -72,6 +84,8 @@ Connect your GitHub repo to Vercel
 Set build command as npm run build and output directory as build/
 
 Your portfolio is now live 🚀
+
+---
 
 
 ## 🙋‍♀️ Author
