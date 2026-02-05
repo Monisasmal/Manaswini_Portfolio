@@ -1,6 +1,4 @@
-
 import styled, { keyframes } from 'styled-components';
-
 
 // 1. Define the floating animation
 const float = keyframes`
@@ -52,129 +50,126 @@ export const HeroBg = styled.div`
   }
 `;
 
-
-
 export const HeroContainer = styled.div`
-background: ${({theme})=> theme.card_light};
-display: flex;
-justify-content: center;
-position: relative;
-padding: 80px, 30px;
-min-height: 90vh;
-width:100%;
-z-index: 1;
+  background: ${({theme})=> theme.card_light};
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 80px 30px; /* Fixed: Removed comma to prevent layout break */
+  min-height: 90vh;
+  width: 100%;
+  z-index: 1;
   overflow: hidden; 
 
-@media (max-width : 960px){
-    padding: 66px 16px
+  @media (max-width: 960px){
+    padding: 66px 16px;
     min-height: 80vh;
-}
-@media(max-width: 640px){
-    padding: 32px 6px;
-}
+  }
+  @media(max-width: 640px){
+    padding: 32px 16px; /* Optimized for 375px mobile view */
+  }
+`;
 
-`;
 export const HeroInnerContainer = styled.div`
-position: relative;
-display: flex;
-margin: 30px 0;
-justify-content: space-between;
-align-items: center;
-width: 100%;
-max-width: 1100px;
-@media (max-width: 960px){
-    flex-direction:column;
-}
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+
+  @media (max-width: 960px){
+    flex-direction: column; /* Prevents overlap by stacking elements earlier */
+  }
 `;
+
 export const HeroLeftContainer = styled.div`
-width:100%;
-order: 1;
-@media(max-width: 960px){
-    order:2;
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column
-    align-items: center;
-}
-@media(max-width: 768px){
+  width: 100%;
+  order: 1;
+  display: flex;
+  flex-direction: column; /* Added missing semicolon */
+
+  @media(max-width: 960px){
     order: 2;
     margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    align-items: center; /* Centers text for tablets and mobile */
+    text-align: center;
+  }
 `;
-export const HeroRightContainer = styled.div`
-width:100%;
-display:flex;
-order:2;
-justify-content: end;
-gap:12px;
 
-@media(max-width: 960px){
+export const HeroRightContainer = styled.div`
+  width: 100%;
+  display: flex;
+  order: 2;
+  justify-content: flex-end;
+  gap: 12px;
+
+  @media(max-width: 960px){
     order: 1;
     justify-content: center;
     align-items: center;
     margin-bottom: 80px;
-}
-@media(max-width: 640px){
+  }
+  @media(max-width: 640px){
     margin-bottom: 30px;
-}
+  }
 `;
+
 export const Img = styled.img`
-position: relative;
-width:100%;
-height: 100%;
-max-width: 400px;
-max-height: 400px;
-border-radius: 50%;
-border: 2px solid ${({theme})=>theme.primary};
-@media(max-width: 768px){
-    max-width: 400px;
-    max-height: 400px;
-}
-@media(max-width: 640px ){
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 50%;
+  border: 2px solid ${({theme})=>theme.primary};
+
+  @media(max-width: 768px){
+    max-width: 300px; /* Reduced size slightly for better tablet fit */
+    max-height: 300px;
+  }
+  @media(max-width: 640px){
     max-width: 280px;
-    max-height:280px;
-}
+    max-height: 280px;
+  }
 `;
 
-export const Title =styled.div`
-font-weight: 800;
-font-size: 45px;
-margin-top: 20px;
-color: ${({theme})=>theme.text_primary};
-line-height: 1.2;
+export const Title = styled.div`
+  font-weight: 800;
+  font-size: 45px;
+  margin-top: 20px;
+  color: ${({theme})=>theme.text_primary};
+  line-height: 1.2;
 
-span {
+  span {
     background: linear-gradient(225deg, #854CE6 0%, #B044FF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
-@media(max-width: 960px){
+  @media(max-width: 960px){
     text-align: center;
-}
-@media(max-width: 640px){
-    font-size: 40px;
-    line-height:48px;
-    margin-bottom :8px;
-}
+  }
+  @media(max-width: 640px){
+    font-size: 32px; /* Adjusted for mobile viewports */
+    line-height: 40px;
+  }
 `;
+
 export const TextLoop = styled.div`
   font-weight: 600;
   font-size: 32px;
   display: flex;
   gap: 12px;
   color: ${({ theme }) => theme.text_primary};
-  line-height: 68px;
+  line-height: 1.5; /* Reduced from 68px to prevent overlap with SubTitle */
+
   @media (max-width: 960px) {
-    text-align: center;
+    justify-content: center;
   }
   @media (max-width: 640px) {
-    font-size: 22px;
-    line-height: 48px;
-    margin-bottom: 16px;
+    font-size: 20px;
+    line-height: 1.4;
   }
 `;
 
@@ -184,62 +179,55 @@ export const Span = styled.span`
 `;
 
 export const SubTitle = styled.div`
-font-size: 17px;
-line-height: 1.6;
-margin-bottom: 42px;
-color: ${({theme})=> theme.text_primary + 98};
-max-width:600px;
-border-left: 4px solid ${({ theme }) => theme.primary};
-padding-left: 20px;
-margin-top: 14px;
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 42px;
+  color: ${({theme})=> theme.text_primary + '99'}; /* Fixed: removed +98 string issue */
+  max-width: 600px;
+  border-left: 4px solid ${({ theme }) => theme.primary};
+  padding-left: 20px;
+  margin-top: 14px;
+  text-align: justify; /* Keeps it professional looking */
 
-@media(max-width: 960px){
-    text-align:center;
+  @media(max-width: 960px){
+    text-align: center;
     border-left: none;
     padding-left: 0;
-}
-@media(max-width: 640px){
-    font-size: 16px;
-    line-height: 32px;
-    border-left: none;
-    padding-left: 0;
-}
+  }
+  @media(max-width: 640px){
+    font-size: 14px; /* Scaled down for 375px screens */
+    line-height: 24px;
+  }
 `;
+
 export const ResumeButton = styled.a`
--webkit-appearance: none;
--moz-appearance: button;
-appearance: button;
-text-decoration: none;
-display: inline-block;
-width: 100%;
-max-width: 250px;
-text-align: center;
-padding: 14px 0;
-color: ${({theme})=> theme.white};
-border-radius: 50px;
-cursor: pointer;
-font-size: 20px;
-font-weight: 600;
-transition: all 0.3s ease; !important;
-background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    box-shadow:  20px 20px 60px #1F2634,
-    
-    &:hover{
-        transform: translateY(-5px);
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  max-width: 250px;
+  text-align: center;
+  padding: 14px 0;
+  color: ${({theme})=> theme.white};
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 18px; /* Slightly reduced for better fit */
+  font-weight: 600;
+  transition: all 0.3s ease; /* Removed extra semicolon */
+  background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+  box-shadow: 20px 20px 60px #1F2634;
+
+  &:hover {
+    transform: translateY(-5px);
     box-shadow: 0 0 30px rgba(133, 76, 230, 0.6);
     filter: brightness(1.1);
-    }
-    @media(max-width: 640px){
-        padding: 12px 0;
-        font-size: 16px;
-    }
+  }
 
+  @media(max-width: 960px){
+    align-self: center; /* Ensures centering when in column mode */
+  }
+
+  @media(max-width: 640px){
+    padding: 12px 0;
+    font-size: 16px;
+  }
 `;
-
-
-
-
-
-
-
-
