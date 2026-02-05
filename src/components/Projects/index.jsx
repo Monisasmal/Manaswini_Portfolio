@@ -58,18 +58,28 @@ const ToggleButtonGroup = styled.div`
   display: flex;
   border: 1.5px solid ${({ theme }) => theme.primary};
   color: ${({ theme }) => theme.primary};
-  font-size: 16px;
+  font-size: 18px;
   border-radius: 12px;
   font-weight: 500;
   margin: 22px 0px;
   @media (max-width: 768px) {
-    font-size: 12px;
+    font-size: 14px;
+    overflow-x: auto; /* Enables horizontal swiping */
+    white-space: nowrap; /* Keeps buttons in one line */
+    scrollbar-width: none; /* Hides scrollbar for Firefox */
+    &::-webkit-scrollbar {
+      display: none; /* Hides scrollbar for Chrome/Safari */
+    }
+    width: 100%;
+    padding: 4px;
   }
 `;
 const ToggleButton = styled.div`
   padding: 8px 18px;
   border-radius: 6px;
   cursor: pointer;
+  text-transform: uppercase;
+  flex-shrink: 0;
   ${({ active, theme }) =>
     active &&
     `
@@ -81,6 +91,18 @@ const ToggleButton = styled.div`
   @media (max-width: 768px) {
     padding: 6px 8px;
     border-radius: 4px;
+  }
+`;
+
+const SubText = styled.div`
+  font-size: 12px;
+  font-weight: 400;
+  color: #FFFFFF; /* This makes the 2nd heading white */
+  text-transform: uppercase;
+  opacity: 0.9; /* Slightly transparent so it's not too harsh */
+  
+  @media (max-width: 768px) {
+    font-size: 8px;
   }
 `;
 
@@ -123,30 +145,53 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
           }
           <Divider />
-          {toggle === 'React' ?
-            <ToggleButton active value="React" onClick={() => setToggle('React')}>React</ToggleButton>
-            :
-            <ToggleButton value="React" onClick={() => setToggle('React')}>React</ToggleButton>
-          }
+          {toggle === 'Full Stack' ? (
+          <ToggleButton active value="Full Stack" onClick={() => setToggle('Full Stack')}>
+            <div style={{ fontWeight: '600' }}>Full Stack</div>
+            <SubText>MERN, NEXTJS</SubText>
+          </ToggleButton>
+            ) : (
+              <ToggleButton value="Full Stack" onClick={() => setToggle('Full Stack')}>
+                <div style={{ fontWeight: '600' }}>Full Stack</div>
+               <SubText>MERN, NEXTJS</SubText>
+              </ToggleButton>
+            )}
+          <Divider /> 
+          {toggle === 'Frontend' ? (
+            <ToggleButton active value="Frontend" onClick={() => setToggle('Frontend')}>
+              <div style={{ fontWeight: '600' }}>Frontend</div>
+               <SubText>REACT, NEXTJS</SubText>
+            </ToggleButton>
+          ) : (
+            <ToggleButton value="Frontend" onClick={() => setToggle('Frontend')}>
+              <div style={{ fontWeight: '600' }}>Frontend</div>
+              <SubText>REACT, NEXTJS</SubText>
+            </ToggleButton>
+          )}
           <Divider />
-          {toggle === 'Angular' ?
-            <ToggleButton active value="Angular" onClick={() => setToggle('Angular')}>Angular</ToggleButton>
-            :
-            <ToggleButton value="Angular" onClick={() => setToggle('Angular')}>Angular</ToggleButton>
-          }
+          {toggle === 'Backend' ? (
+            <ToggleButton active value="Backend" onClick={() => setToggle('Backend')}>
+              <div style={{ fontWeight: '600' }}>Backend</div>
+              <SubText>NODEJS,EXPRESSJS,MONGODB</SubText>
+            </ToggleButton>
+          ) : (
+            <ToggleButton value="Backend" onClick={() => setToggle('Backend')}>
+              <div style={{ fontWeight: '600' }}>Backend</div>
+              <SubText>NODEJS, EXPRESSJS, MONGODB</SubText>
+            </ToggleButton>
+          )}
           <Divider />
-          {toggle === 'WebApp' ?
-            <ToggleButton active value="WebApp" onClick={() => setToggle('WebApp')}>WebApp</ToggleButton>
-            :
-            <ToggleButton value="WebApp" onClick={() => setToggle('WebApp')}>WebApp</ToggleButton>
-          }
-          <Divider />
-          {toggle === 'VanillaJS' ?
-            <ToggleButton active value="VanillaJS" onClick={() => setToggle('VanillaJS')}>VanillaJS</ToggleButton>
-            :
-            <ToggleButton value="VanillaJS" onClick={() => setToggle('VanillaJS')}>VanillaJS</ToggleButton>
-          }
-          
+          {toggle === 'WebApp' ? (
+            <ToggleButton active value="WebApp" onClick={() => setToggle('WebApp')}>
+              <div style={{ fontWeight: '600' }}>Web APP</div>
+              <SubText>HTML, CSS, JS</SubText>
+            </ToggleButton>
+          ) : (
+            <ToggleButton value="WebApp" onClick={() => setToggle('WebApp')}>
+              <div style={{ fontWeight: '600' }}>Web APP</div>
+              <SubText>HTML, CSS, JS</SubText>
+            </ToggleButton>
+          )}
         </ToggleButtonGroup>
         
         <CardContainer>

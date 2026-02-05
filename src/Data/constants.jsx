@@ -258,48 +258,50 @@ export const Bio = {
   // For Projects
   
   export const projects =[
+
+    {
+    id:0,
+    title:"Ecommerce App",
+    date:"Feb 2024",
+    desc:"A responsive E-commerce app built with React that lets users browse products, add to cart, filter/search items, and manage orders seamlessly with a clean UI and local storage/cart support.",
+    image:"https://cdn.cubix.co/1_PJ_1_Usy6q_Oyc_TBT_8j_Ak3_RB_cd6dcc8989.webp",
+    tags:["Fullstack(MERN)", "Github", "VS Code","API","Versel", "FormSpree", "Auth0"],
+    category:"Full Stack",
+    github:"https://react-ecommerce-project-manaswini-sasmals-projects.vercel.app/",
+  },
     
       {
-        id:0,
+        id:1,
     title:"Infinite Image Scrooling",
     date:"Jan 2025",
     desc:"The Infinite Image Scrolling project continuously loads images as users scroll down, creating a seamless browsing experience. It’s perfect for galleries, social feeds, and content-heavy websites with dynamic loading.",
     image:"https://s3-cdn.cmlabs.co/page/2024/02/28/infinite-scroll-definition-how-it-works-pros-cons-138272.webp",
     tags:["React","nodeJs", "Github", "VS Code"],
-    category:"React",
+    category:"Frontend",
     github:"https://infinite-scrolling-react-js.vercel.app/",
       },
       {
-        id:1,
+        id:2,
     title:"Directory App",
     date:"Jan 2025",
     desc:"The Directory App using React project lets users add, search, and manage contact information. Featuring a clean UI, dynamic state management, and local storage, it simplifies personal or business directories.",
     image:"https://cdn.dribbble.com/userupload/5032743/file/original-b5fa1764b59497d377531ba884efab91.png?format=webp&resize=400x300&vertical=center",
     tags:["React","nodeJs", "Github", "VS Code"],
-    category:"React",
+    category:"Frontend",
     github:"https://directory-app-blush.vercel.app/",
           
       },
       {
-    id:2,
+    id:3,
     title:"Random Color Generator",
     date:"May 2025",
     desc:"A Random Color Generator app in React displays a new color each time a button is clicked. It shows the color code and changes the background to the generated color.",
     image:"https://i.pinimg.com/736x/b3/ee/bb/b3eebbcb65d9c7afbe2f79d33f19595f.jpg",
     tags:["React","nodeJs", "Github", "VS Code","API","Versel"],
-    category:"React",
+    category:"Frontend",
     github:"https://random-color-generator-react-manaswini-sasmals-projects.vercel.app/",
       },
-      {
-          id:3,
-          title:"Weather App",
-          date:"Aug 2023",
-          desc:"Step into a world of meteorological marvels with my Weather Project, where real-time weather information meets user-friendly design. This innovative project provides a comprehensive and visually engaging experience for users seeking up-to-date weather forecasts and conditions.",
-          image:"https://images.unsplash.com/photo-1530563885674-66db50a1af19?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2VhdGhlciUyMGFwcHxlbnwwfHwwfHx8MA%3D%3D",
-          tags:["React", "NodeJs", "TypeScript", "Github", "VS Code", "API"],
-          category:"React",
-          github:"https://monisasmal.github.io/reactlivewebsite/",
-      },
+      
       {
         id:4,
     title:"Markdown Editor",
@@ -307,7 +309,7 @@ export const Bio = {
     desc:"A Grid Light Game app in React features a grid of lights that toggle on click. The goal is to turn off all lights, using logic and strategy to win.",
     image:"https://miro.medium.com/v2/resize:fit:1200/0*FtXS62_aXK-75Yij.png",
     tags:["React", "Github", "VS Code","API","Versel"],
-    category:"React",
+    category:"Frontend",
     github:"https://markdown-editor-manaswini-sasmals-projects.vercel.app/",
       },
   
@@ -318,7 +320,7 @@ export const Bio = {
     desc:"A Grid Light Game app in React features a grid of lights that toggle on click. The goal is to turn off all lights, using logic and strategy to win.",
     image:"https://screenshots.codesandbox.io/omfyt/6.png",
     tags:["React", "Github", "VS Code","API","Versel"],
-    category:"React",
+    category:"Frontend",
     github:"https://grid-light-react-manaswini-sasmals-projects.vercel.app/",
           
       },
@@ -329,7 +331,7 @@ export const Bio = {
     desc:"A QR Code Generator app in React lets users input text or URLs and instantly creates a scannable QR code. It’s fast, responsive, and great for sharing information easily.",
     image:"https://blog.openreplay.com/images/qr-codes-generation-with-react/images/hero.png",
     tags:["React", "Github", "VS Code","API","Versel"],
-    category:"React",
+    category:"Frontend",
     github:"https://qr-code-generator-react-manaswini-sasmals-projects.vercel.app/",    
       },
       {
@@ -339,7 +341,7 @@ export const Bio = {
           desc:" Introducing my streamlined Signup Project – a user-friendly gateway to seamless onboarding and enhanced digital experiences. This project is designed to simplify the registration process for users, ensuring a secure and efficient way to access the full spectrum of features and benefits offered by your platform.",
           image:"https://plus.unsplash.com/premium_photo-1661416814460-e768028561c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2lnbiUyMHVwfGVufDB8fDB8fHww",
           tags:["React", "NodeJs", "TypeScript", "Github", "VS Code","Firebase"],
-          category:"React",
+          category:"Frontend",
           github:"https://monisasmal.github.io/ReactSignUp/",
       },
       {
@@ -349,23 +351,23 @@ export const Bio = {
           desc:"Embark on a literary journey with our Basic Book Project – a digital haven for readers and authors alike. This project is thoughtfully crafted to provide a user-friendly platform for book enthusiasts to explore, discover, and engage with a diverse range of literary works.",
           image:"https://png.pngtree.com/png-clipart/20210801/original/pngtree-online-education-plan-education-class-banner-png-image_6576551.jpg",
           tags:["React", "NodeJs", "TypeScript", "Github", "VS Code"],
-          category:"React",
+          category:"Frontend",
           github:"https://study-planner-react-manaswini-sasmals-projects.vercel.app/",
       },
       {
           id:9,
-          title:"Registration App",
-          date:"Apr 2022",
-          desc:"Welcome to our Login Project, where seamless authentication meets enhanced security. Designed with user experience and data protection in mind, this project offers a robust and user-friendly login system for applications and platforms.",
-          image:"https://images.unsplash.com/photo-1612947843678-5de3b0b26d06?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fG9ubGluZSUyMHJlZ2lzdHJhdGlvbnxlbnwwfHwwfHx8MA%3D%3D",
-          tags:["Angular", "NodeJs", "TypeScript", "Github", "VS Code"],
-          category:"Angular",
-          github:"https://monisasmal.github.io/Angular-RegisterForm/login",
+          title:"IPL-Status-Visualization",
+          date:"Apr 2025",
+          desc:"This project scrapes IPL statistics from the official IPL website using Puppeteer, processes the data, and visualizes it using a bar chart.",
+          image:"https://plus.unsplash.com/premium_photo-1681487769650-a0c3fbaed85a?q=80&w=955&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          tags:["Express", "NodeJs", "Github", "VS Code"],
+          category:"Backend",
+          github:"https://ipl-status-visualization-1.onrender.com/",
       },
       {
           id:10,
           title:"LittleBox India",
-          date:"Oct 2024",
+          date:"Oct 2024", 
           desc:"A user-friendly shopping app with product search, cart management, secure checkout, and personalized recommendations for a seamless experience.",
           image:"https://monisasmal.github.io/LittleBoxIndia/Home%20Image/HeroImage_1.webp",
           tags:["HTML", "CSS", "JavaScript", "Github", "VS Code"],
@@ -389,7 +391,7 @@ export const Bio = {
           desc:"Project about change the shape and color",
           image:"https://www.freeiconspng.com/uploads/red-triangle-png-20.png",
           tags:["HTML", "CSS", "JavaScript", "Github", "VS Code"],
-          category:"VanillaJS",
+          category:"WebApp",
           github:"https://monisasmal.github.io/Change-Color-and-Shape-/",
       },
       {
@@ -400,7 +402,7 @@ export const Bio = {
     desc:"Immerse yourself in the timeless challenge of strategy and skill with our Shopping Cart Project – a classic rendition of the beloved game reimagined for digital platforms. ",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfuqGWZLeMk8B2K0yGhsydPI2l9yds8tHO1w&s",
     tags:["HTML","CSS", "JavaScript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Leader-Board/",
       },
       {
@@ -411,7 +413,7 @@ export const Bio = {
     desc:"An Image Search App is a web or mobile application that allows users to find images based on text queries or visual input.",
     image:"https://img.fixthephoto.com/blog/images/gallery/news_preview_mob_image__preview_3547.png",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/ImageSearchJS/",
       },
       {
@@ -421,7 +423,7 @@ export const Bio = {
         desc:"Engage your curiosity with my interactive Quiz App! Explore a world of knowledge and test your skills on Tech topics. Challenge yourself with a diverse range of questions, from general trivia to specialized subjects.",
         image:"https://cdn.vectorstock.com/i/preview-1x/68/24/man-playing-quiz-with-smartphone-mobile-app-vector-35896824.jpg",
         tags:["React","nodeJs", "Github", "VS Code"],
-        category:"React",
+        category:"Frontend",
         github:"https://monisasmal.github.io/ReactQuizApp/",
     },
     {
@@ -431,7 +433,7 @@ export const Bio = {
       desc:"Experience efficiency at your fingertips with our Calculator App! Simplify your calculations and boost productivity with a user-friendly interface.",
       image:"https://img.freepik.com/free-photo/calculator-notebook-chalkboard_23-2148199997.jpg?size=626&ext=jpg&uid=R117515250&ga=GA1.1.504127332.1701020548&semt=ais",
       tags:["HTML","CSS", "JavaScript", "Github", "VS Code"],
-      category:"VanillaJS",
+      category:"WebApp",
       github:"https://monisasmal.github.io/Calculator-APP/",
   },
   {
@@ -441,7 +443,7 @@ export const Bio = {
     desc:"Step into the world of timeless elegance with my Analog Clock Project – a captivating display of traditional timekeeping in a digital format.",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaCvHDF_NWRr0dqgYPZzGAK-y3hiuygpdxkw&usqp=CAU",
     tags:["HTML","CSS", "JavaScript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/JSClock/",
   },
   {
@@ -451,7 +453,7 @@ export const Bio = {
     desc:"Immerse yourself in the timeless challenge of strategy and skill with our Tic Tac Toe Game Project – a classic rendition of the beloved game reimagined for digital platforms. ",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhaH7Ck7gOxfq_FfQ1KXEvIRla-qww_qOicg&usqp=CAU",
     tags:["HTML","CSS", "JavaScript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/JS_TICTACTOE_GAME/",
   },
   {
@@ -461,7 +463,7 @@ export const Bio = {
     desc:"Step into the digital realm of knowledge and literary exploration with my innovative Library Project – a sophisticated platform designed to redefine the way users discover, access, and engage with a vast array of literary resources. ",
         image:"https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/01/unique-book-recommendation-sites-the-non-fiction-library.jpg",
     tags:["React","nodeJs", "Github", "VS Code"],
-    category:"React",
+    category:"Frontend",
     github:"https://monisasmal.github.io/ReactLibrary/#/book",
   },
   {
@@ -471,7 +473,7 @@ export const Bio = {
     desc:"Immerse yourself in the timeless challenge of strategy and skill with our Emojii Project – a classic rendition of the beloved game reimagined for digital platforms. ",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ajqYLfVfUwaFeOnu4iSxie3_qpxmijxuqg&s",
     tags:["HTML","CSS", "JavaScript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Search-Emojee-JS/",
   },
   {
@@ -481,7 +483,7 @@ export const Bio = {
     desc:"Immerse yourself in the timeless challenge of strategy and skill with our Pokemon Project – a classic rendition of the beloved game reimagined for digital platforms. ",
     image:"https://wallpapers.com/images/featured/pokemon-pictures-fw1l53kqy2o4e5p1.jpg",
     tags:["HTML","CSS", "JavaScript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Pokemon-App-JS/",
   },
   {
@@ -491,7 +493,7 @@ export const Bio = {
     desc:"Immerse yourself in the timeless challenge of strategy and skill with our Pokemon Project – a classic rendition of the beloved game reimagined for digital platforms. ",
     image:"https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/01/unique-book-recommendation-sites-the-non-fiction-library.jpg",
     tags:["HTML","CSS", "JavaScript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/BookAppJS/",
   },
   {
@@ -501,7 +503,7 @@ export const Bio = {
     desc:"Immerse yourself in the timeless challenge of strategy and skill with our infinite scrolling Project – a classic rendition of the beloved game reimagined for digital platforms. ",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRoI16ZXg7csqUkE7gL3YLZcWJIRRxAjfrvnj7Gjd2S80BJxDiEF-FClXr6wkOs-uxceg&usqp=CAU",
     tags:["HTML","CSS", "JavaScript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/InfiniteScrollingJS/",
   },
   {
@@ -511,7 +513,7 @@ export const Bio = {
     desc:"Immerse yourself in the timeless challenge of strategy and skill with our Guess Number Project – a classic rendition of the beloved game reimagined for digital platforms. ",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2wa79Iu5Hc6tWwwtm9YZj7daCD2m8QuAYKQ&s",
     tags:["HTML","CSS", "JavaScript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/GuessNumberJS/",
   },
   {
@@ -521,7 +523,7 @@ export const Bio = {
     desc:"Immerse yourself in the timeless challenge of strategy and skill with our Shopping Cart Project – a classic rendition of the beloved game reimagined for digital platforms. ",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfnHdVc8G0QA2jxMI6LYLepWEV4Z3Hb_NVKA&s",
     tags:["HTML","CSS", "JavaScript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Shopping-Cart-JS/",
   },
   {
@@ -531,7 +533,7 @@ export const Bio = {
           desc:"This project is a pixel-perfect and fully responsive webpage developed by converting the provided Figma design into a working website using HTML, CSS, and JavaScript only",
           image:"https://media.istockphoto.com/id/1158358904/photo/spraying-perfume-on-dark-background-closeup-image.jpg?s=612x612&w=0&k=20&c=FgO1tJIxW_fVH0e7YHb-oMb_iDshELnMR6qXGILQFcU=",
           tags:["HTML", "CSS", "JavaScript", "Github", "VS Code"],
-          category:"VanillaJS",
+          category:"WebApp",
           github:"https://monisasmal.github.io/Cube-Assignment/",
   },
   {
@@ -561,7 +563,7 @@ export const Bio = {
     desc:"The Age Calculator App is a simple and useful tool designed to calculate a person’s age based on their date of birth. By entering the birth date, users can instantly find out their exact age in years, months, and days.",
     image:"https://www.designnominees.com/application/upload/Apps/2019/06/age-calculator-76.png",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/New-Age-Calculator-JS/",
   },
   {
@@ -571,7 +573,7 @@ export const Bio = {
     desc:"The Joke Generator App is a fun and lighthearted tool designed to lift your mood anytime you need a good laugh. With just one click, it fetches a random joke and displays it instantly",
     image:"https://www.codewithrandom.com/wp-content/uploads/2022/11/codewithrandom11.png",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Dad-Joke-Generator-JS/",
   },
   {
@@ -581,7 +583,7 @@ export const Bio = {
     desc:"The Digital Clock App is a simple, stylish, and highly accurate tool that displays the current time in a beautiful digital format.",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6R3SuVm9FyQJfkd1k0NNnk3o9NiqgD0O62w&s",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Digital-Clock-JS/",
   },
   {
@@ -591,7 +593,7 @@ export const Bio = {
     desc:"The Feedback App is a simple and effective tool that allows users to share their opinions, suggestions, and experiences easily.",
     image:"https://a.storyblok.com/f/47007/1200x628/72065e2c21/inappfeedback_blog_meta_v02.png",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Feedback-UI-JS/",
   },
   {
@@ -601,7 +603,7 @@ export const Bio = {
           desc:"Embark on a journey of seamless travel arrangements with my Travel Form Project – a comprehensive solution designed to simplify and streamline the process of planning and organizing your next adventure. This project ensures a user-friendly interface for travelers to provide essential details, preferences, and requirements, facilitating a smooth and personalized travel experience.",
           image:"https://images.unsplash.com/photo-1522199755839-a2bacb67c546?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aWFnZSUyMHdpdGglMjBsYXB0b3B8ZW58MHx8MHx8fDA%3D",
           tags:["HTML", "CSS", "JavaScript", "Github", "VS Code"],
-          category:"VanillaJS",
+          category:"WebApp",
           github:"https://monisasmal.github.io/JS-FormValidation-Project/",
   },
   {
@@ -611,7 +613,7 @@ export const Bio = {
     desc:"A Movie Search App is a web or mobile application that allows users to find movies by title, genre, actor, release year, or other criteria. ",
     image:"https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY-1200-80.jpg",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/MovieSearchAppJS/",
   },
   
@@ -622,7 +624,7 @@ export const Bio = {
     desc:"A List Switching App is a type of user interface that allows users to move list items between two containers—typically a left container and a right container—by selecting items and clicking a button",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVaaZUPz4KGkH7mEy_kaZSmPCpKo8whrjbpw&s",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Switching-List-JS/",
   },
   
@@ -633,7 +635,7 @@ export const Bio = {
     desc:"A Sticky Note App is a simple yet powerful productivity tool that lets users create and manage digital sticky notes on their screen",
     image:"https://beebom.com/wp-content/uploads/2020/10/1-best-sticky-notes-alternatives-for-windows-10.jpg",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Sticky-Note-/",
   },
   {
@@ -643,7 +645,7 @@ export const Bio = {
     desc:"A Stock Tracker Dashboard App is a dynamic and interactive application that allows users to monitor real-time stock market data, track selected stocks, and analyze financial trends",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_3jOFmDcG62-THQNELMvGW7jqC-MJcrG7Ug&s",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Stock-Tracker-JS/",
   },
   {
@@ -653,7 +655,7 @@ export const Bio = {
     desc:"A Stopwatch App is a digital tool that allows users to measure elapsed time accurately. It's commonly used for tracking time during workouts, sports events,",
     image:"https://static.vecteezy.com/system/resources/thumbnails/014/491/559/small/digital-stopwatch-icon-simple-style-vector.jpg",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Stop-Watch-JS/",
   },
   {
@@ -663,7 +665,7 @@ export const Bio = {
     desc:"A Tip Calculator App is a handy tool designed to help users quickly calculate how much tip to leave on a bill and how to split the total among multiple people.",
     image:"https://user-images.githubusercontent.com/46662771/211972696-229ed1ca-92d3-414c-afb3-7814fc158c83.png",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Tip-Calculator-JS/",
   },
   {
@@ -673,7 +675,7 @@ export const Bio = {
     desc:"A fun browser game where players identify the odd-colored box in a grid. It tests visual perception, gets harder each level, and tracks scores with engaging animations.",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnbH9Fff7m0lFfJEJi0JfA2QwcHYSg7CHkJQ&s",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Spot-Odd-Color-JS/",
   },
   {
@@ -683,7 +685,7 @@ export const Bio = {
     desc:"A web-based dynamic table where clicking 'Add Row' inserts a new row and clicking 'Add Column' appends a new column to all rows. Helps visualize table structure and layout manipulation.",
     image:"https://us1.discourse-cdn.com/flex002/uploads/glideapps/original/3X/b/2/b2a1be95eb05be3a1c492c7b4407283e2072e15d.png",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/AddRowColumn/",
   },
   {
@@ -693,7 +695,7 @@ export const Bio = {
     desc:"A memory-based browser game where players flip two cards at a time to find matching pairs. It sharpens focus, improves memory, and ends when all pairs are correctly matched.",
     image:"https://m.media-amazon.com/images/I/71RXJQx7+DL.png",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Match-Pair-JS/",
   },
   {
@@ -703,7 +705,7 @@ export const Bio = {
     desc:"The Toast Bar project displays brief, auto-dismissable notifications (toasts) on user actions, enhancing UX with customizable messages, colors, and animations for success, error, or info alerts.",
     image:"https://i.pinimg.com/736x/1f/08/42/1f08423179d80b540942663db7637677.jpg",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Toast-Snack-BarJS/",
   },
   {
@@ -713,7 +715,7 @@ export const Bio = {
     desc:"The Password Strength Checker project evaluates password security in real-time, providing visual feedback based on length, use of symbols, numbers, and case variety to help users create stronger passwords.",
     image:"https://codehim.com/wp-content/uploads/2023/09/Bootstrap-5-Password-Strength-Meter.png",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Password-Strength-Checker-JS/",
   },
   {
@@ -723,7 +725,7 @@ export const Bio = {
     desc:"The Dice Roll project simulates rolling dice using random number generation, displaying results visually with dice faces, and offering a fun, interactive way to learn basic JavaScript and DOM manipulation.",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcI_yVbRz5edF_JQs5wCXk2Nt6HH9Ji29arw&s",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Dice-roll-JS/",
   },
   {
@@ -733,7 +735,7 @@ export const Bio = {
     desc:"The Random Color Generator project creates and displays random colors with each click, showing their HEX or RGB values, making it a fun way to explore color codes and DOM updates.",
     image:"https://www.selecolor.com/img/random-color-generator.png",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Random-Color-Generator/",
   },
   {
@@ -743,7 +745,7 @@ export const Bio = {
     desc:"The Verify Random OTP Generator project generates a secure, random OTP (One-Time Password) and verifies user input, commonly used for authentication, enhancing security in login or signup processes.",
     image:"https://codegyan.in/articles/images/post/cbc9f16168aa1d2c0b5b48d9a3091980.jpg",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Verify-OTP-Generator/",
   },
   {
@@ -753,7 +755,7 @@ export const Bio = {
     desc:"The Color Diagonally project is a fun visual challenge where users identify or fill colors along diagonal patterns. It enhances pattern recognition, creativity, and basic understanding of color placement logic.",
     image:"https://img.freepik.com/premium-vector/background-black-white-squares-chess-board-vector_622487-249.jpg",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Color-Diagonally-JS/",
   },
   {
@@ -763,7 +765,7 @@ export const Bio = {
     desc:"The Color Step Progressbar project visually represents progress through colored steps. Each step changes color as users advance, making it ideal for tracking form completion, tasks, or multi-step processes.",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOS1IleFdjubXAhCLS_cK9UIWfUbmZzbWYvA&s",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/ProgressBar_JS/",
   },
   {
@@ -773,7 +775,7 @@ export const Bio = {
     desc:"The Random Password Generator project creates secure, unpredictable passwords using letters, numbers, and symbols. It's ideal for enhancing account security by generating strong, customized passwords with just one click.",
     image:"https://miro.medium.com/v2/resize:fit:2560/1*CIz5ahZFJeeHROP9I1fIzg.png",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Rendom-Password-Generator-JS/",
   },
   {
@@ -783,7 +785,7 @@ export const Bio = {
           desc:"Indulge your senses in my Basic Restaurant Project – a digital culinary haven where innovation meets gastronomy. This project is meticulously crafted to streamline the dining experience, offering both patrons and restaurateurs a seamless platform for exploring menus, and relishing the flavors of exceptional cuisine.",
           image:"https://geek-foods-home-manaswini-sasmals-projects.vercel.app/geekfood_bg.avif",
           tags:["React", "NodeJs", "TypeScript", "Github", "VS Code", "auth0","Firebase", "Formspree"],
-          category:"React",
+          category:"Frontend",
           github:"https://geek-foods-home-manaswini-sasmals-projects.vercel.app/",
   },
   {
@@ -793,7 +795,7 @@ export const Bio = {
     desc:"The Blog App project allows users to create, edit, and share blog posts. It features a clean interface, user authentication, and real-time content updates for an engaging writing experience.",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvCh8uiJv2fkPNFf4ji4LXXgKn7Vdy-4wcgQ&s",
     tags:["React","nodeJs", "Github", "VS Code"],
-    category:"React",
+    category:"Frontend",
     github:"https://blog-app-snowy-eta.vercel.app/",
   },
   {
@@ -803,7 +805,7 @@ export const Bio = {
     desc:"The Progress Bar using React project visually tracks task or process completion. It utilizes dynamic state updates, customizable styles, and smooth animations to enhance user experience in React applications.",
     image:"https://img.freepik.com/free-psd/95-progress-loading-bar-icon-3d-render_47987-12848.jpg?semt=ais_hybrid&w=740",
     tags:["React","nodeJs", "Github", "VS Code"],
-    category:"React",
+    category:"Frontend",
     github:"https://progresssbar-manaswini-sasmals-projects.vercel.app/",
   },
   {
@@ -813,7 +815,7 @@ export const Bio = {
     desc:"The Trello App using React project replicates Trello’s task management system with draggable cards, boards, and lists. It enhances productivity through an interactive UI, real-time updates, and component-based architecture.",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkIDwuHu_ssF9vuu6o6oU4xaADQJ5Qkko6jPJmcbl5EWbFMLWTN3vEPSjvpLD9GoQ7IJ8&usqp=CAU",
     tags:["React","nodeJs", "Github", "VS Code"],
-    category:"React",
+    category:"Frontend",
     github:"https://trello-app-mauve.vercel.app/",
   },
   {
@@ -823,7 +825,7 @@ export const Bio = {
     desc:"Dive into the future of React development with my innovative React Hooks project. Revolutionizing the way you manage state and lifecycle events, this project harnesses the power of functional components, offering simplicity, reusability, and enhanced readability in your React applications.",
     image:'https://plus.unsplash.com/premium_photo-1661384073736-0036e2aa65d5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZWNvbW1lcmNlfGVufDB8fDB8fHww',
     tags:["React", "NodeJs", "TypeScript", "Github", "VS Code"],
-    category:"React",
+    category:"Frontend",
     github:"https://monisasmal.github.io/ReactHookProject/",
   },
   {
@@ -833,7 +835,7 @@ export const Bio = {
     desc:"Introducing my sleek and intuitive ToDo List application - your go-to tool for efficient task management. Seamlessly blending simplicity with functionality, our ToDo List empowers users to organize their day, prioritize tasks, and achieve productivity effortlessly.",
     image:"https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     tags:["React", "NodeJs", "TypeScript", "Github", "VS Code"],
-    category:"React",
+    category:"Frontend",
     github:"https://monisasmal.github.io/ReactToDoProject/",
   },
   {
@@ -843,7 +845,7 @@ export const Bio = {
     desc:"A Traffic Light app in React simulates signal transitions between red, yellow, and green lights. It uses state management and timers to mimic real-world traffic light behavior interactively.",
     image:"https://uploads.codesandbox.io/uploads/user/81e60e42-84da-422e-896d-01a985072d9a/VWfP-thumbnail.png",
     tags:["React","nodeJs", "Github", "VS Code","API","Versel"],
-    category:"React",
+    category:"Frontend",
     github:"https://traffic-light-react-manaswini-sasmals-projects.vercel.app/",
   },
   {
@@ -853,7 +855,7 @@ export const Bio = {
           desc:"Indulge your senses in my Basic Restaurant Project – a digital culinary haven where innovation meets gastronomy. This project is meticulously crafted to streamline the dining experience, offering both patrons and restaurateurs a seamless platform for exploring menus, and relishing the flavors of exceptional cuisine.",
           image:"https://images.unsplash.com/photo-1609427468793-2f0e77c388a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZvb2QlMjBvcmRlcnxlbnwwfHwwfHx8MA%3D%3D",
           tags:["React", "NodeJs", "TypeScript", "Github", "VS Code"],
-          category:"React",
+          category:"Frontend",
           github:"https://monisasmal.github.io/ReactResBasicProject/",
   },
   {
@@ -863,7 +865,7 @@ export const Bio = {
           desc:"Welcome to my Login Project, where seamless authentication meets enhanced security. Designed with user experience and data protection in mind, this project offers a robust and user-friendly login system for applications and platforms.",
           image:"https://images.unsplash.com/photo-1642480485642-63b9018eadc2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QXBwbGljYXRpb24lMjBMb2dJbiUyMGljb258ZW58MHx8MHx8fDA%3D",
           tags:["React", "NodeJs", "TypeScript", "Github", "VS Code"],
-          category:"React",
+          category:"Frontend",
           github:"https://monisasmal.github.io/ReactLoginProject/",
   },
   {
@@ -873,7 +875,7 @@ export const Bio = {
           desc:" Online payment allows you to pay money via the internet. Buyers will use this type of payment when they purchase goods online or offline.They can use different types of online payment methods, including debit/credit cards, wire transfers, net banking, and digital wallets. Online payments can be done at the discretion of consumers.",
           image:"https://images.unsplash.com/photo-1587906697341-bfbde76785c7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8b25saW5lJTIwcGF5bWVudHN8ZW58MHx8MHx8fDA%3D",
           tags:["React", "NodeJs", "TypeScript", "Github", "VS Code","Firebase"],
-          category:"React",
+          category:"Frontend",
           github:"https://monisasmal.github.io/ReactOnlinePay/",
   },
   {
@@ -883,7 +885,7 @@ export const Bio = {
     desc:"An IP Address Finder app in React fetches and displays the user's public IP address along with location details. It uses APIs to provide real-time IP and geolocation information instantly.",
     image:"https://media.geeksforgeeks.org/wp-content/uploads/20210915174449/Screenshot20210915174131min-660x366.png",
     tags:["React", "Github", "VS Code","API","Versel"],
-    category:"React",
+    category:"Frontend",
     github:"https://ip-address-finder-react-manaswini-sasmals-projects.vercel.app/",
   },
   {
@@ -893,7 +895,7 @@ export const Bio = {
     desc:"An Anime Pic Generator app in React fetches and displays random anime images using an API. Users can click a button to view new anime pictures, making it fun and engaging.",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7KsMwvIbiRxCWs6iObjnOn3VNI2Rf9dMmYg&s",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Anime-Pic-Generator-JS/",
   },
   {
@@ -903,7 +905,7 @@ export const Bio = {
     desc:"An English Dictionary app provides word definitions, pronunciations, synonyms, and usage examples. Users can search any word to enhance vocabulary and understanding, making it a useful tool for learners.",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHCXEur2KirjjCkd9bnJftPSQMYfUf4c5rag&s",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Engligh-Dictionary-JS/",
   },
   {
@@ -913,7 +915,7 @@ export const Bio = {
     desc:"A Grid Light Game app in VanilaJS features a grid of lights that toggle on click. The goal is to turn off all lights, using logic and strategy to win.",
     image:"https://upload.wikimedia.org/wikipedia/commons/9/95/Lights_Out_SMIL.svg",
     tags:["HTML","CSS", "javascript", "Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Grid-Light-JS/",
   },
   {
@@ -923,7 +925,7 @@ export const Bio = {
     desc:"The Fitness Tracker App is a responsive ReactJS-based web application designed to help users manage their fitness routines.",
     image:"https://image.shutterstock.com/image-vector/set-women-gym-girls-do-260nw-2452802825.jpg",
     tags:["React", "Github", "VS Code","API","Versel"],
-    category:"React",
+    category:"Frontend",
     github:"https://fitness-club-raect-manaswini-sasmals-projects.vercel.app/",
   },
   {
@@ -933,7 +935,7 @@ export const Bio = {
     desc:"The Coin Flip App is a simple and interactive web application built with ReactJS that simulates flipping a coin. Users can click a button to flip the coin, and the app randomly displays either Heads or Tails, updating the statistics in real-time.",
     image:"https://www.sourcecodester.com/sites/default/files/images/rems/cfw.png",
     tags:["React", "Github", "VS Code","API","Versel"],
-    category:"React",
+    category:"Frontend",
     github:"https://flip-coin-react-manaswini-sasmals-projects.vercel.app/",
   },
   {
@@ -943,7 +945,7 @@ export const Bio = {
     desc:"A modern React-based credit card app with real-time validation, card type detection, and animated card flip UI. Fully responsive, accessible, and provides instant feedback for a smooth user experience.",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2a0y2G0DxRLCdOkIGrlrv0zO8Tya2UiMBFw&s",
     tags:["React", "Github", "VS Code","API","Versel"],
-    category:"React",
+    category:"Frontend",
     github:"https://credit-check-360-manaswini-sasmals-projects.vercel.app/",
   },
   {
@@ -953,7 +955,7 @@ export const Bio = {
     desc:"A React-based Location Finder app that detects and displays your current location using the browser’s geolocation API, showing coordinates, address, and map view for easy location access and sharing.",
     image:"https://www.shutterstock.com/image-photo/hand-young-woman-searching-location-600nw-2189806311.jpg",
     tags:["React", "Github", "VS Code","API","Versel"],
-    category:"React",
+    category:"Frontend",
     github:"https://find-location-react-manaswini-sasmals-projects.vercel.app/",
   },
   {
@@ -963,19 +965,19 @@ export const Bio = {
     desc:"A Domain Name Generator app built with React that helps users create unique, catchy domain names by combining keywords, extensions, and suggestions instantly for branding, startups, or personal projects.",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-lZk2s1l1Z-I5TIp23fyjnYTAlr3wM0BQWw&s",
     tags:["React", "Github", "VS Code","API","Versel"],
-    category:"React",
+    category:"Frontend",
     github:"https://domain-name-generator-react-manaswini-sasmals-projects.vercel.app/",
   },
   {
-    id:70,
-    title:"Ecommerce App",
-    date:"Feb 2024",
-    desc:"A responsive E-commerce app built with React that lets users browse products, add to cart, filter/search items, and manage orders seamlessly with a clean UI and local storage/cart support.",
-    image:"https://cdn.cubix.co/1_PJ_1_Usy6q_Oyc_TBT_8j_Ak3_RB_cd6dcc8989.webp",
-    tags:["React", "Github", "VS Code","API","Versel"],
-    category:"React",
-    github:"https://react-ecommerce-project-manaswini-sasmals-projects.vercel.app/",
-  },
+              id:70,
+            title:"Weather App",
+            date:"Aug 2023",
+            desc:"Step into a world of meteorological marvels with my Weather Project, where real-time weather information meets user-friendly design. This innovative project provides a comprehensive and visually engaging experience for users seeking up-to-date weather forecasts and conditions.",
+            image:"https://images.unsplash.com/photo-1530563885674-66db50a1af19?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2VhdGhlciUyMGFwcHxlbnwwfHwwfHx8MA%3D%3D",
+            tags:["React", "NodeJs", "TypeScript", "Github", "VS Code", "API"],
+            category:"Frontend",
+            github:"https://monisasmal.github.io/reactlivewebsite/",
+      },
   {
     id:71,
     title:"Real-E-State App",
@@ -983,7 +985,7 @@ export const Bio = {
     desc:"A modern Real Estate app built with React that showcases property listings, allows filtering by location and price, and provides responsive design with a user-friendly interface for buyers and renters.",
     image:"https://www.mindinventory.com/blog/wp-content/uploads/2022/10/real-estate.jpg",
     tags:["React", "Github", "VS Code","API","Versel"],
-    category:"React",
+    category:"Frontend",
     github:"https://real-e-state-react-manaswini-sasmals-projects.vercel.app/",
   },
   {
@@ -993,7 +995,7 @@ export const Bio = {
     desc:"Track user location, IP details, and find domain names using simple HTML, CSS, and JavaScript-powered interface.",
     image:"https://tracker.iplocation.net/assets/images/tracker-hero.jpg",
     tags:["HTML", "CSS", "JS","Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/NetInspector-JS/",
   },
 
@@ -1004,7 +1006,7 @@ export const Bio = {
     desc:"Track income and expenses effortlessly using HTML, CSS, and JavaScript with dynamic updates, local storage, and clean UI.",
     image:"https://youarelovedtemplates.com/cdn/shop/files/1_4e77156c-d26e-4cf1-aa31-946d972b3209.jpg?v=1683930594&width=1445",
     tags:["HTML", "CSS", "JS","Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Expense-Tracker-JS/",
   },
 
@@ -1015,7 +1017,7 @@ export const Bio = {
     desc:"Fun Whack-a-Mole game using HTML, CSS, and JavaScript with random mole pop-ups, scoring, and fast-paced interaction.",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3VVINSJLUrfJ_8V4sNFpcf7-ZewhFYJN9_Q&s",
     tags:["HTML", "CSS", "JS","Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/Whack-a-Mole-JS/",
   },
   {
@@ -1025,7 +1027,7 @@ export const Bio = {
     desc:"Responsive E-commerce app using HTML, CSS, and JavaScript with product listings, cart functionality, and smooth user interactions.",
     image:"https://s3.us-east-2.amazonaws.com/assets.yourgpt.ai/content/uploads/2024/10/01144344/Ecom-AI.jpg",
     tags:["HTML", "CSS", "JS","Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/shopzyJS/",
   },
   {
@@ -1035,7 +1037,7 @@ export const Bio = {
     desc:"Interactive virtual keyboard built with HTML, CSS, and JavaScript, supporting keypress detection, styling, and real-time input display.",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP24V9vDPqqMcFMKpwF8CbtUeM_ti0aOsH9FR3Cq7Q89lu5mWO58_8u5TocmUmRPjjr8Y&usqp=CAU",
     tags:["HTML", "CSS", "JS","Github", "VS Code"],
-    category:"VanillaJS",
+    category:"WebApp",
     github:"https://monisasmal.github.io/keyBoard-Generating-JS/",
   },
 

@@ -1,4 +1,5 @@
-import React from 'react'
+/* eslint-disable react/prop-types */
+// import React from 'react'
 import styled from 'styled-components'
 
 
@@ -125,13 +126,15 @@ background: hsla(271, 100%, 50%, 1);
 `;
 
 
+
 const ProjectCard = ({project}) => {
   return (
     <>
       <Card>
           <Image src={project.image}/>
           <Tags>
-              {project.tags?.map((tag, index) => (
+              {project.tags?.map((tag) => (
+              // eslint-disable-next-line react/jsx-key
               <Tag>{tag}</Tag>
               ))}
           </Tags>
