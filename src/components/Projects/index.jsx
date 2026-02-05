@@ -58,39 +58,52 @@ const ToggleButtonGroup = styled.div`
   display: flex;
   border: 1.5px solid ${({ theme }) => theme.primary};
   color: ${({ theme }) => theme.primary};
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 12px;
   font-weight: 500;
   margin: 22px 0px;
+
   @media (max-width: 768px) {
-    font-size: 14px;
-    overflow-x: auto; /* Enables horizontal swiping */
-    white-space: nowrap; /* Keeps buttons in one line */
-    scrollbar-width: none; /* Hides scrollbar for Firefox */
-    &::-webkit-scrollbar {
-      display: none; /* Hides scrollbar for Chrome/Safari */
-    }
-    width: 100%;
-    padding: 4px;
+    flex-direction: column; /* Switches from row to column */
+    width: 80%;
+    max-width: 400px; /* Keeps the column from being too wide on tablets */
+    border: none; /* Optional: remove outer border if using individual button borders */
   }
 `;
+
+const Divider = styled.div`
+  width: 1.5px;
+  background: ${({ theme }) => theme.primary};
+  
+  @media (max-width: 768px) {
+    width: 100%; /* Divider becomes a horizontal line */
+    height: 1.5px;
+  }
+`;
+
 const ToggleButton = styled.div`
   padding: 8px 18px;
-  border-radius: 6px;
   cursor: pointer;
-  text-transform: uppercase;
-  flex-shrink: 0;
-  ${({ active, theme }) =>
-    active &&
-    `
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 1;
+
+  ${({ active, theme }) => active && `
     background: ${theme.primary + 20};
-    `}
+  `}
+
   &:hover {
     background: ${({ theme }) => theme.primary + 8};
   }
+
   @media (max-width: 768px) {
-    padding: 6px 8px;
-    border-radius: 4px;
+    padding: 12px 18px; /* More vertical space for thumb-tapping */
+    border: 1px solid ${({ theme }) => theme.primary + 50}; /* Adds definition between items */
+    border-radius: 8px;
+    margin: 4px 0;
   }
 `;
 
@@ -106,10 +119,7 @@ const SubText = styled.div`
   }
 `;
 
-const Divider = styled.div`
-  width: 1.5px;
-  background: ${({ theme }) => theme.primary};
-`;
+
 
 const CardContainer = styled.div`
   display: flex;
