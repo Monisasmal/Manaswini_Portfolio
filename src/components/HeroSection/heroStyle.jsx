@@ -200,34 +200,61 @@ export const SubTitle = styled.div`
   }
 `;
 
-export const ResumeButton = styled.a`
-  text-decoration: none;
-  display: inline-block;
+export const ButtonContainer = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
   width: 100%;
-  max-width: 250px;
+  margin-top: 10px;
+
+  @media (max-width: 960px) {
+    justify-content: center;
+    flex-direction: column; /* Stacks buttons on tablet/mobile */
+    align-items: center;
+    gap: 16px;
+  }
+`;
+
+const ButtonBase = styled.a`
+  text-decoration: none;
+  width: 100%;
+  max-width: 220px;
   text-align: center;
-  padding: 14px 0;
-  color: ${({theme})=> theme.white};
+  padding: 12px 0;
   border-radius: 50px;
-  cursor: pointer;
-  font-size: 18px; /* Slightly reduced for better fit */
+  font-size: 18px;
   font-weight: 600;
-  transition: all 0.3s ease; /* Removed extra semicolon */
-  background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  box-shadow: 20px 20px 60px #1F2634;
+  transition: all 0.3s ease;
+  cursor: pointer;
 
   &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 0 30px rgba(133, 76, 230, 0.6);
+    transform: translateY(-3px);
     filter: brightness(1.1);
   }
 
-  @media(max-width: 960px){
-    align-self: center; /* Ensures centering when in column mode */
-  }
-
-  @media(max-width: 640px){
-    padding: 12px 0;
+  @media (max-width: 640px) {
+    padding: 10px 0;
     font-size: 16px;
+  }
+`;
+
+export const ResumeButton = styled(ButtonBase)`
+  color: ${({ theme }) => theme.white};
+  background: linear-gradient(225deg, rgb(37, 1, 71) 0%, rgb(98, 4, 109) 100%);
+  box-shadow: 0 4px 20px rgba(96, 48, 179, 0.4);
+
+  &:hover {
+    box-shadow: 0 0 30px rgba(133, 76, 230, 0.6);
+  }
+`;
+
+export const ProjectButton = styled(ButtonBase)`
+  color: ${({ theme }) => theme.primary};
+  background: transparent;
+  border: 2px solid ${({ theme }) => theme.primary};
+
+  &:hover {
+    background: ${({ theme }) => theme.primary + '15'};
+    box-shadow: 0 0 20px ${({ theme }) => theme.primary + '33'};
   }
 `;
