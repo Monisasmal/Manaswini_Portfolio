@@ -63,31 +63,35 @@ export const NavLink = styled.a`
 `;
 
 export const GitHubButton = styled.a`
-  border: 1.8px solid ${({ theme }) => theme.primary};
+  border: 1.5px solid ${({ theme }) => theme.primary};
+  color: ${({ theme }) => theme.primary};
   justify-content: center;
   display: flex;
   align-items: center;
-  text-transform: uppercase;
-  border-radius: 20px;
-  color: ${({ theme }) => theme.primary};
+  border-radius: 10px; /* Matching the new Hero button design */
   cursor: pointer;
-  padding: 10px 20px;
-  text-decoration: none;
+  padding: 8px 18px;
+  font-size: 10px;
   font-weight: 500;
-  font-size: 16px;
-  transition: all 0.6s ease-in-out;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   white-space: nowrap;
+  flex-shrink: 0;
+
   &:hover {
     background: ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.white};
+    box-shadow: 0 0 15px ${({ theme }) => theme.primary + '66'};
+    transform: translateY(-2px);
   }
 
-  @media screen and (max-width: 1024px) {
-    font-size: 14px;
-    padding: 8px 12px;
+  @media screen and (max-width: 768px) {
+    font-size: 13px;
+    padding: 6px 14px;
   }
 `;
-
 export const ButtonContainer = styled.div`
   height: 100%;
   display: flex;
@@ -141,3 +145,5 @@ export const MobileLink = styled.a`
     color: ${({ theme }) => theme.primary};
   }
 `;
+
+

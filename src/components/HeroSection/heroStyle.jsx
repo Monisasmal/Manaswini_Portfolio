@@ -203,58 +203,61 @@ export const SubTitle = styled.div`
 export const ButtonContainer = styled.div`
   display: flex;
   justify-content: flex-start;
-  gap: 20px;
+  gap: 16px;
   width: 100%;
   margin-top: 10px;
 
   @media (max-width: 960px) {
     justify-content: center;
-    flex-direction: column; /* Stacks buttons on tablet/mobile */
+    flex-direction: column;
     align-items: center;
-    gap: 16px;
   }
 `;
 
 const ButtonBase = styled.a`
   text-decoration: none;
   width: 100%;
-  max-width: 220px;
+  max-width: 200px; 
   text-align: center;
-  padding: 12px 0;
-  border-radius: 50px;
-  font-size: 18px;
-  font-weight: 600;
-  transition: all 0.3s ease;
+  padding: 10px 0; 
+  border-radius: 10px; 
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px; 
+  text-transform: uppercase;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 
-  &:hover {
-    transform: translateY(-3px);
-    filter: brightness(1.1);
-  }
-
   @media (max-width: 640px) {
-    padding: 10px 0;
-    font-size: 16px;
+    max-width: 280px;
+    font-size: 14px;
   }
 `;
 
 export const ResumeButton = styled(ButtonBase)`
   color: ${({ theme }) => theme.white};
-  background: linear-gradient(225deg, rgb(37, 1, 71) 0%, rgb(98, 4, 109) 100%);
-  box-shadow: 0 4px 20px rgba(96, 48, 179, 0.4);
+  background: linear-gradient(225deg, #854CE6 0%, #B044FF 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 15px rgba(133, 76, 230, 0.3);
 
   &:hover {
-    box-shadow: 0 0 30px rgba(133, 76, 230, 0.6);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(133, 76, 230, 0.5);
+    filter: brightness(1.2);
   }
 `;
 
 export const ProjectButton = styled(ButtonBase)`
   color: ${({ theme }) => theme.primary};
   background: transparent;
-  border: 2px solid ${({ theme }) => theme.primary};
+  border: 1px solid ${({ theme }) => theme.primary};
+  /* Adding a subtle glass background */
+  backdrop-filter: blur(5px);
+  background: ${({ theme }) => theme.primary + '10'};
 
   &:hover {
-    background: ${({ theme }) => theme.primary + '15'};
-    box-shadow: 0 0 20px ${({ theme }) => theme.primary + '33'};
+    background: ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.white};
+    box-shadow: 0 0 20px ${({ theme }) => theme.primary + '66'};
   }
 `;
