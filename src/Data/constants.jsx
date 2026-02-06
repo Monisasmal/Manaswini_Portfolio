@@ -1066,6 +1066,17 @@ export const Bio = {
     github:"https://random-joke-generator-xcj8.onrender.com/api/jokes/random",
   },
 
+  {
+    id:79,
+    title:"Random Image Generator",
+    date:"march 2025",
+    desc:"A random image generator built with Node.js and Express that serves images through a simple API.",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4jVRfFGFBICbZhKjmxbentUx2p0OhH5Hsjw&s",
+    tags:["Express", "NodeJs", "Github", "VS Code"],
+    category:"Backend",
+    github:"https://random-image-generator-4dri.onrender.com/api/image/random",
+  },
+
   ];
   
   
