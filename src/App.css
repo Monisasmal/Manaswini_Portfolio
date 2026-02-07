@@ -8,12 +8,17 @@
   font-family: "Poppins", sans-serif;
 }
 
-html, body {
+html {
+ 
+  scroll-behavior: smooth; 
+}
+
+body {
   margin: 0 !important;
   padding: 0 !important;
   width: 100%;
-  overflow-x: hidden; /* Lock the viewport on both tags */
-  position: relative;
+  overflow-x: hidden; /* Keep it here to catch horizontal leaks */
+  background: #1C1C27; /* Matches your dark theme */
 }
 
 

@@ -1076,6 +1076,16 @@ export const Bio = {
     category:"Backend",
     github:"https://random-image-generator-4dri.onrender.com/api/image/random",
   },
+  {
+    id: 80,
+    title:"Genderize Accuracy",
+    date:"Jan 2026",
+    desc:"A sleek, modern Next.js application that predicts gender based on a username using the Genderize.io API.",
+    image:"https://thumbs.dreamstime.com/b/accuracy-level-level-measure-meter-low-to-high-concept-illustration-design-34298200.jpg",
+    tags:["Nextjs", "API", "Tailwind", "Github", "VS Code"],
+    category:"Full Stack",
+    github:"https://genderize-accuracy.vercel.app/",
+  },
 
   ];
   

@@ -7,10 +7,17 @@ export const Nav = styled.div`
   align-items: center;
   justify-content: center;
   font-size: 1rem;
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  transition: 0.8s all ease;
+  
+  /* FORCE STICKY */
+  position: sticky; 
+  top: 0; 
+  left: 0;
+  right: 0;
+  z-index: 999; 
+  
+  /* Ensure no parent margin/padding breaks it */
+  margin: 0;
+  width: 100%;
 `;
 
 export const NavbarContainer = styled.div`
@@ -71,8 +78,8 @@ export const GitHubButton = styled.a`
   border-radius: 10px; /* Matching the new Hero button design */
   cursor: pointer;
   padding: 8px 18px;
-  font-size: 10px;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-decoration: none;
