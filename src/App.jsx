@@ -20,10 +20,10 @@ import Footer from './components/Footer/Footer';
 const Body = styled.div` 
   background-color: ${({theme})=> theme.bg};
   width: 100%;
-  overflow-x: hidden;
-  /* CHANGE THESE: */
-  display: block; /* Flex can sometimes break sticky child logic */
-  position: relative; 
+  /* Use display: block to ensure the sticky track is the full page height */
+  display: block; 
+  /* Remove overflow-x here entirely for a moment to test */
+  overflow: visible; 
 `
 const Wrapper = styled.div`
 background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201,32,184,0)50%), linear-gradient(141.27deg, rgba(0,70,209,0.15)100%);

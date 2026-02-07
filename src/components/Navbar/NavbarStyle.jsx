@@ -8,16 +8,13 @@ export const Nav = styled.div`
   justify-content: center;
   font-size: 1rem;
   
-  /* FORCE STICKY */
+  /* THE FORCE FIX */
+  position: -webkit-sticky; /* For Safari */
   position: sticky; 
   top: 0; 
-  left: 0;
-  right: 0;
-  z-index: 999; 
-  
-  /* Ensure no parent margin/padding breaks it */
-  margin: 0;
+  z-index: 9999; /* Higher priority */
   width: 100%;
+  border-bottom: 1px solid ${({ theme }) => theme.primary + '33'};
 `;
 
 export const NavbarContainer = styled.div`
@@ -72,31 +69,23 @@ export const NavLink = styled.a`
 export const GitHubButton = styled.a`
   border: 1.5px solid ${({ theme }) => theme.primary};
   color: ${({ theme }) => theme.primary};
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  border-radius: 10px; /* Matching the new Hero button design */
-  cursor: pointer;
-  padding: 8px 18px;
-  font-size: 12px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 1px;
   text-decoration: none;
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  white-space: nowrap;
-  flex-shrink: 0;
+  
+  /* THE ONE-LINE SECRET */
+  white-space: nowrap; /* Forces text to stay on one line */
+  flex-shrink: 0;      /* Stops the button from squishing */
+  display: inline-block;
+  
+  transition: all 0.4s ease;
 
   &:hover {
     background: ${({ theme }) => theme.primary};
-    color: ${({ theme }) => theme.white};
-    box-shadow: 0 0 15px ${({ theme }) => theme.primary + '66'};
-    transform: translateY(-2px);
-  }
-
-  @media screen and (max-width: 768px) {
-    font-size: 13px;
-    padding: 6px 14px;
+    color: white;
   }
 `;
 export const ButtonContainer = styled.div`

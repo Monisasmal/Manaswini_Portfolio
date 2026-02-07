@@ -9,16 +9,18 @@
 }
 
 html {
- 
-  scroll-behavior: smooth; 
+  /* This kills the white gap without breaking 'sticky' */
+  overflow-x: clip;
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0 !important;
   padding: 0 !important;
   width: 100%;
-  overflow-x: hidden; /* Keep it here to catch horizontal leaks */
-  background: #1C1C27; /* Matches your dark theme */
+  /* Double protection against the white gap */
+  overflow-x: clip; 
+  background: #1C1C27;
 }
 
 
